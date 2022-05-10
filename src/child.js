@@ -63,7 +63,7 @@ const getExpense = () => {
             return (<li key={ind}>
               <span> {transObj.desc}</span>
               <span> ${transObj.amount}</span>
-              <button className="" onClick={() => delButton(transObj.id)}>Del </button>
+              <button  onClick={() => delButton(transObj.id)}>Del </button>
             </li>
             )
           })}
